@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.3"
 
+# Handling User Authentication
+gem "devise"
+
 # Provides integration with importmap and allows you to use modern JavaScript syntax
 gem "esbuild-rails"
 
